@@ -11,6 +11,7 @@ class Goods{
   void SetGoodsInfo(int index, int price);
   int GetIndex();
   int GetPrice();
+  int SetPrice(int index, int price);
 
  private:
   int goods_index_ = 0;
